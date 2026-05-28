@@ -39,7 +39,7 @@ const Paste = () => {
         filteredData.map((paste) => (
           <div key={paste._id} className="border p-4 rounded mb-4">
             <h2 className="text-xl font-semibold">{paste.title}</h2>
-
+            
             <p className="mt-2">{paste.content}</p>
 
             <div className="flex gap-3 mt-4">
